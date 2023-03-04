@@ -18,7 +18,7 @@ string[] FillArray(int size) // заполнение массива
 int CountWordsWithLessThan3Symbols(string[] array)
 {
     int count = 0;
-    foreach (string str in array)
+    foreach (string str in array) // оператор перебора массивов
     {
         if (str.Length <= 3)
         {
