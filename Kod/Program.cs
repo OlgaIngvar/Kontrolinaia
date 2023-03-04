@@ -6,7 +6,7 @@
 
 string[] FillArray(int size) // заполнение массива
 {
-    string[] array = new string[size];
+    string[] array = new string[size]; // новый массив
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = Prompt($"Write {i} element: ");
