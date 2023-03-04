@@ -4,7 +4,7 @@
     return Console.ReadLine();
 }
 
-string[] FillArray(int size) // 
+string[] FillArray(int size) // заполнение массива
 {
     string[] array = new string[size];
     for (int i = 0; i < array.Length; i++)
